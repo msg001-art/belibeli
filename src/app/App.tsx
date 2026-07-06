@@ -10,7 +10,7 @@ import { AdminPanel } from './components/admin/AdminPanel';
 const ADMIN_EMAIL = 'admin@beli.com';
 
 export default function App() {
-  const [page, setPage] = useState<Page>('login');
+  const [page, setPage] = useState<Page>('home');
   const [password, setPassword] = useState('beli123');
   const [settings, setSettings] = useState<SiteSettings>(defaultSiteSettings);
   const [products, setProducts] = useState<Product[]>(initialProducts);
